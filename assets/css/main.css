@@ -788,7 +788,8 @@ h2.resp-accordion:hover {
     padding-right: 0;
 }
 #profile .cycle-slideshow {
-    margin: 0px auto
+    margin-top: 19px;
+    margin-bottom: 20px;
     width: 348px;
     height: 456px;
     text-align: center;
@@ -796,7 +797,6 @@ h2.resp-accordion:hover {
     display: table-cell;
 }
 #profile .cycle-slideshow img {
-    position: absolute;
     max-width:100%;
     max-height: 100%; 
 }
