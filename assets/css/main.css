@@ -788,13 +788,17 @@ h2.resp-accordion:hover {
     padding-right: 0;
 }
 #profile .cycle-slideshow {
-    margin-top: 19px;
-    margin-bottom: 20px;
+    margin: 0px auto
     width: 348px;
     height: 456px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
 }
 #profile .cycle-slideshow img {
-    width: 100%;
+    position: absolute;
+    max-width:100%;
+    max-height: 100%; 
 }
 .bottom-p .panel-body {
     padding: 15px;
@@ -2869,3 +2873,87 @@ li h6{
 div.ppt {
     display: none !important;
 }
+
+
+/* Teaching styles */
+
+.ruby a {
+  color: #e0115f;
+}
+
+.ruby a:hover {
+  color: #930036;
+}
+
+.amber a {
+  color: #ff7e00;
+}
+
+.amber a:hover {
+  color: #C66200;
+}
+
+.azul a {
+  color: #0070bb;
+}
+
+.azul a:hover {
+  color: #0F9EFB;
+}
+
+
+/*
+================================================================================
+  Home page main content (post list).
+================================================================================
+*/
+.archive {
+  margin-bottom: 100px;
+}
+
+.archive-item {
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.archive-item h2 {
+  margin-bottom: 0;
+  -ms-flex-preferred-size: 110px;
+      flex-basis: 110px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.archive-item > div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.archive-item article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.archive-item article a {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.post-date {
+  text-align: right;
+  -ms-flex-preferred-size: 110px;
+      flex-basis: 110px;
+}
+
+/*
