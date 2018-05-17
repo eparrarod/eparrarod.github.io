@@ -1,0 +1,24 @@
+
+title: Esteban Parra Rodriguez
+url: 'https://github.com/eparrarod'
+baseurl: '/eparrarod' #change it according to your repository name
+
+
+
+# Profile information
+yourname: Esteban Parra ## Name
+title: 'Ph.D. Student'  ## Title
+location: Tallahasee , florida ## Location
+cvFilename: '/files/CV (Esteban Parra Rodriguez).pdf'
+
+
+## Social Profiles
+twitter: https://twitter.com/EstebanPR  ## twitter account url
+linkedin: https://www.linkedin.com/in/esteban-parra-rodriguez-4a799515a/  ## linkedin account url
+scholar: https://scholar.google.com/citations?user=PF9jk_UAAAAJ&hl=en  ## Google Scholar url
+github: https://github.com/eparrarod  ## Github account url
+email: mailto:parrarod@cs.fsu.edu  ## My contact email
+
+
+
+# Update all the sections by editing the files inside _includes folder.
